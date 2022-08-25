@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+
+        }
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;      
+            margin-top: 100px;    
+        }
+        .image_block{
+            border: 1px solid grey;
+            padding: 15px 1px 15px 1px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .change_image{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 150%;
+            font-weight: bolder;
+        }
+        .change{
+           margin: 0 auto;
+           display: block;
+            font-size: 200%;
+            font-weight: bolder;
+            margin-top: 50px;
+            width: 480px;
+
+        }
+        .container{
+            border: 1px solid gray;
+            width: 1000px;
+            height: 700px;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="wrapper">
+        <div class="image_block">
+         <img src="2.jpg" alt="">
+        </div>
+        <divc class="image_block">
+         <img src="3.jpg" alt="">
+        </divc>
+        <div class="image_block">
+         <img src="4.jpg" alt="">
+        </div>
+    </div>
+    <div class="change_image">поменять<input class="num_1" type="text" value="0">на<input class="num_2" type="text" value="0"></div>
+    <button class="change">поменять</button>
+    </div>
+    <script src="lesson.js"></script>
+</body>
+</html>
